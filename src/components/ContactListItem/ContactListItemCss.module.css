@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+
+.item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.button{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: aqua;
+}

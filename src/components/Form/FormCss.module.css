@@ -1,0 +1,26 @@
+.form{
+    border: 2px solid black;
+    height: 100%;
+    width: 30%;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formInput{
+    width: fit-content;
+}
